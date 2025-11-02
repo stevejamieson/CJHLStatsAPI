@@ -34,15 +34,17 @@ Reference: [CJHL Statistics Portal](https://www.cjhlhockey.com/en/statistics)
 
 ---
 
-## 🧰 Pandantic Object Modeling 
+## 🧰 Pydantic  Object Modeling 
 
 | detail        |  Used                               |
 |---------------|-------------------------------------|
-| name      | `requests`, `BeautifulSoup`, `Playwright` |
-| team      | `FastAPI`                          |
-| Position  | `FastAPI`                          |
-| GP   | `FastAPI`                          |
-| G   | `FastAPI`                          |
+| name      | `Player Name`                           |
+| team      | `Team`                                  |
+| Position  | `Position`                              |
+| GP   | `Games Played`                               |
+| G   | `Goals`                                       |
+| A   | `Assists`                                     |
+| P   | `Points`                                      |
 
 
 
