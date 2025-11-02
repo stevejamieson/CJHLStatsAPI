@@ -36,6 +36,8 @@ Reference: [CJHL Statistics Portal](https://www.cjhlhockey.com/en/statistics)
 
 ## 🧰 Pydantic  Object Modeling 
 
+structured data layer 
+
 | detail        |  Used                               |
 |---------------|-------------------------------------|
 | name      | `Player Name`                           |
