@@ -8,11 +8,11 @@
 
 
 2.Leagues:
-+MHL
-+CCHL
-+OJHL
-+NOJHL
-+SIJHL
-+MJHL
-+SJHL
-+AJHL)
+-MHL
+-CCHL
+-OJHL
+-NOJHL
+-SIJHL
+-MJHL
+-SJHL
+-AJHL
