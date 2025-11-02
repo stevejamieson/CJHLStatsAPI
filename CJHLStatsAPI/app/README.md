@@ -1,4 +1,4 @@
-# 🏒 Junior A Hockey Stats Scraper
+# 🏒 CJHLStatsAPI
 
 A modular Python-based scraper for public Junior A hockey league sites across Canada. This project extracts player and team statistics from CJHL-affiliated leagues and exposes the data via a FastAPI backend.
 
