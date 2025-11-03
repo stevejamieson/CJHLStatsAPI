@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 class PlayerMetadata(BaseModel):
     birthdate: str
@@ -9,11 +9,10 @@ class PlayerMetadata(BaseModel):
 
 class PlayerStats(BaseModel):
     name: str
-    position: str
+    position: str= Field(..., alias="Pos")
     team: str
-    GP: int
-    G: int
-    A: int
-    Points: int
+    GP: int= Field(..., alias="GamesPlayed")
+    G: int= Field(..., alias="Goals")
+    A: int= Field(..., alias="Assists")
+    Points: int= Field(..., alias="P")
     metadata: PlayerMetadata
-
