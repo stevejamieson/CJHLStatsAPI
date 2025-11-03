@@ -1,5 +1,7 @@
 from fastapi import FastAPI
 from app.routers import mhl # etc.
+from dotenv import load_dotenv
+
 
 app = FastAPI(title="CJHL Stats API")
 
