@@ -28,15 +28,14 @@ Reference: [CJHL Statistics Portal](https://www.cjhlhockey.com/en/statistics)
 |---------------|-------------------------------------|
 | Scraping      | `requests`, `BeautifulSoup`, `Playwright` |
 | Backend API   | `FastAPI`                          |
-
-
----
+| datalayer     | `Pydantic`                          |
 
 ---
 
-## 🧰 Pydantic  Object Modeling 
+---
+## 🧰 Pydantic  Data Schema
 
-structured data layer 
+Structured player statistics include:
 
 | detail        |  Used                               |
 |---------------|-------------------------------------|
@@ -54,8 +53,8 @@ structured data layer
 
 ## 🔄 Workflow Overview
 
-1. **Scrape** player and team stats from public league sites.
-2. **Normalize** and clean data for consistency across leagues.
+1. **Scrape** player stats from public league sites.
+2. **Normalize** structure and clean data for consistency across leagues.
 3. **Expose** via FastAPI endpoints for dashboards or analytics.
 
 ---
