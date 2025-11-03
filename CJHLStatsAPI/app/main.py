@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from app.routers import mhl # etc.
 
-app = FastAPI(title="Junior A Hockey Stats API")
+app = FastAPI(title="CJHL Stats API")
 
 @app.get("/favicon.ico")
 def favicon():
@@ -9,7 +9,7 @@ def favicon():
 
 @app.get("/")
 def read_root():
-    return {"message": "Junior A Hockey Stats API is running!"}
+    return {"message": "CJHL Stats API is up and running!"}
 
 app.include_router(mhl.router, prefix="/stats")
 
