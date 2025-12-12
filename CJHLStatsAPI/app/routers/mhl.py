@@ -6,6 +6,7 @@ import os
 
 router = APIRouter()
 
+## env 
 load_dotenv()
 
 API_KEYS = {
@@ -14,6 +15,7 @@ API_KEYS = {
     "Elite": os.getenv("API_KEY_ELITE"),
 }
 
+## Verify API Key Method
 def verify_api_key(x_api_key: str = Header(...)):
     if x_api_key not in API_KEYS.values():
         raise HTTPException(status_code=403, detail="Invalid API Key")

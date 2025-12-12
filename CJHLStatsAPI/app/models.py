@@ -12,11 +12,10 @@ class PlayerMetadata(BaseModel):
 
 
 class PlayerAnalytics(BaseModel):
-    birthdate: Optional[date] = None
-
-    # Raw inputs
     GP: Optional[int] = None
     Points: Optional[int] = None
+
+    # Raw inputs
     game_points: Optional[list[int]] = None  # Full season or recent game-by-game points
     peer_ppg_list: Optional[list[float]] = None  # For percentile comparison
 
